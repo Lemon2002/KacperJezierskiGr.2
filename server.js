@@ -1,12 +1,14 @@
 var express = require("express")
 var app = express()
 var PORT = process.env.PORT || 3000;
-var path = require("path")
+const PORT = 3000;
 var bodyParser = require("body-parser")
 
 app.use(express.static('static'))
 
 app.use(bodyParser.urlencoded({ extended: true }));
+
+var path = require("path")
 
 var logowanie = 0
 
