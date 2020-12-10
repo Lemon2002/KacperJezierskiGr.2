@@ -87,7 +87,7 @@ app.get("/admin", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(172, 202, 202);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 120px;
         }
@@ -97,7 +97,7 @@ app.get("/admin", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(165, 207, 207);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 100px;
         }
