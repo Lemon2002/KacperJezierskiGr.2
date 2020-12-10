@@ -184,7 +184,7 @@ app.post("/registerUser", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(172, 202, 202);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 120px;
         }
@@ -253,7 +253,7 @@ app.post("/registerUser", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(172, 202, 202);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 120px;
         }
@@ -377,7 +377,7 @@ app.post("/logUserIn", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(172, 202, 202);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 120px;
         }
@@ -493,7 +493,7 @@ app.get("/show", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(172, 202, 202);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 120px;
         }
@@ -733,7 +733,7 @@ app.get("/gender", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(172, 202, 202);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 120px;
         }
@@ -754,7 +754,7 @@ app.get("/gender", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(165, 207, 207);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 100px;
         }
@@ -998,7 +998,7 @@ app.get("/sort", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(172, 202, 202);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 120px;
         }
@@ -1019,7 +1019,7 @@ app.get("/sort", function (req, res) {
             left: 0px;
             height: 100%;
             width: 100%;
-            background-color: rgb(165, 207, 207);
+            background-color: rgb(255, 255, 255);
             text-align: center;
             font-size: 100px;
         }
