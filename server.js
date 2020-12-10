@@ -51,7 +51,6 @@ app.get("/admin", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         <style>
         .pasek{
@@ -145,7 +144,6 @@ app.post("/registerUser", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         <style>
         
@@ -220,7 +218,6 @@ app.post("/registerUser", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Register</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         
         <style>
@@ -348,8 +345,7 @@ app.post("/logUserIn", function (req, res) {
         
         <meta charset="UTF-8">                    
         <meta name="viewport" content="width=device-width, initial-scale=1.0">                    
-        <title>Login</title>                    
-        <script src="js/script.js"></script>                                       
+        <title>Login</title>                                                          
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">                
         
         <style>
@@ -459,7 +455,6 @@ app.get("/show", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         
         <style>
@@ -533,7 +528,6 @@ app.get("/show", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>show</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
     
         <style>
@@ -705,7 +699,6 @@ app.get("/gender", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         
         <style>
@@ -786,7 +779,6 @@ app.get("/gender", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>show</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         
         <style>
@@ -970,7 +962,6 @@ app.get("/sort", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         
         <style>
@@ -1066,7 +1057,6 @@ app.get("/sort", function (req, res) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>show</title>
-        <script src="js/script.js"></script>
         <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
         
         <style>
@@ -1259,7 +1249,6 @@ app.get("/sort", function (req, res) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>show</title>
-    <script src="js/script.js"></script>
     <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
     
     <style>
