@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="js/script.js"></script>
+    <link href="//fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTN1OVgaY.woff2" rel="stylesheet">
+<style>
+
+.pasek{
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    line-height: 70px;
+    width: 100%;
+    background-color: rgb(8, 210, 236);
+    font-size: 40px;
+    padding-left: 50px;
+    float: left;
+    display: block;
+
+}
+
+a{
+    color: white;
+}
+
+.glowny{
+    top: 80px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(172, 202, 202);
+    text-align: center;
+    font-size: 120px;
+}
+
+.div{
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#bang{
+    padding-left: 35%;
+    text-align: left;
+    font-size: 50px;
+    color: rgb(66, 80, 80);
+}
+
+input{
+    padding-top: 30px;
+    height: 15px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'JetBrains Mono', monospace;
+}
+button{
+    font-size: 40px;
+    width: 200px;
+    height: 60px;
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(102, 190, 136);
+}
+
+</style>
+
+</head>
+
+<body>
+    
+<div class="pasek div">
+
+    <a href="/">main</a>
+    <a href="/register">register</a>
+    <a href="/login">login</a>
+    <a href="/admin">admin</a>
+
+</div>
+    
+<div class="glowny div">login page
+    
+    <form method="POST" action="/logUserIn" id="bang">
+    
+        <label for="login">login:</label>
+        <input required type="text" name="login">
+        <br>
+        <label for="password">password:</label>
+        <input required type="password" name="password">
+        <br>
+        <button name="submit">Submit</button>
+    
+    </form>
+    
+</div>
+
+</body>
+
+</html>
